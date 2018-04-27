@@ -1,0 +1,76 @@
+html
+{
+    background-image: url("background.jpg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.adInfo
+{
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: grey;
+}
+
+.content
+{
+    background-color: white;
+    margin-left: 121px;
+    margin-right: 121px;
+    margin-top: 49px;
+    float: left;
+    border: 2px solid lightgray;
+    color: grey;
+    letter-spacing: 1.1px;
+}
+
+#text
+{
+    margin-right: 34px;
+    margin-left: 34px;
+}
+
+#about
+{
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 34px;
+    border-bottom: 3px solid grey;
+    color: lightseagreen;
+    margin-top: 30px;
+}
+
+
+#id
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 210px;
+    width: 270px;
+    float:left;
+    padding: 10px;
+}
+
+.header
+{
+    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:whitesmoke;
+    border-bottom: 3px solid grey;
+    height: 121px;
+}
+
+h1
+{
+    float: left;
+    background-color: lightseagreen;
+    color: white;
+    padding: 41.5px;
+    margin-left: 121px;
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+}
