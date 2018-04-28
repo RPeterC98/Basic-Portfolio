@@ -1,7 +1,13 @@
 html
 {
-    background-image: url("background.jpg");
+    background-image: url(images/background.jpg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    color: grey;
+    text-decoration: none;
 }
 
 .adInfo
@@ -23,6 +29,7 @@ html
     border: 2px solid lightgray;
     color: grey;
     letter-spacing: 1.1px;
+    line-height: 25px;
 }
 
 #text
@@ -31,33 +38,19 @@ html
     margin-left: 34px;
 }
 
-#about
-{
-    margin-left: 34px;
-    margin-right: 34px;
-    margin-bottom: 34px;
-    border-bottom: 3px solid grey;
-    color: lightseagreen;
-    margin-top: 30px;
-}
-
 
 #id
 {
     margin-top: 20px;
     margin-left: 20px;
-    height: 210px;
-    width: 270px;
     float:left;
     padding: 10px;
 }
 
 .header
 {
-    margin: 0;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     background-color:whitesmoke;
     border-bottom: 3px solid grey;
     height: 121px;
@@ -68,9 +61,76 @@ h1
     float: left;
     background-color: lightseagreen;
     color: white;
-    padding: 41.5px;
-    margin-left: 121px;
+    padding: 44.5px;
+    margin-left: 90px;
     margin-top: 0;
     text-align: center;
     position: relative;
+    font-size: 32px;
+}
+
+footer
+{
+    background-color: rgb(49, 49, 49);
+    margin-top: 38.3%;
+    position: fixed;
+    width: 100%;
+}
+
+#footText
+{
+    color: white;
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
+
+h2
+{
+    padding: 20px;
+    font-size: 28px;
+    margin-left: 121px;
+    margin-right: 121px;
+    margin-top: 39px;
+    border-bottom: 3px solid grey;
+    color: lightseagreen;
+    background-color:white;
+}
+
+.input
+{
+    margin-left: 121px;
+    margin-right: 121px;
+    padding: 20px;
+    line-height: 35px;
+    box-sizing: border-box;
+    background-color: white;
+    color: grey;
+    font-weight: bolder;
+}
+
+#button
+{
+    background-color: lightseagreen;
+    color:white;
+    border:none;
+    width:100px;
+    height:35px;
+}
+
+.bannertext
+{
+    position: relative;
+    bottom: 75px;
+    font-size: 24px;
+    padding: 15px;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+}
+
+.row
+{
+    float: left;
+    margin: 5px;
 }
